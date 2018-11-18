@@ -24,7 +24,7 @@ public class SlideAdapter extends PagerAdapter {
         this.context=context;
     }
 
-    //Array
+    //ضيف الصور الخاصة بمشروعك
     public int[] list_images={
 
             R.drawable.welcome,
@@ -32,7 +32,7 @@ public class SlideAdapter extends PagerAdapter {
             R.drawable.question
 
     };
-
+        //العنوان
     public String[] list_title={
 
             "Welcome",
@@ -40,7 +40,7 @@ public class SlideAdapter extends PagerAdapter {
             "To Be Safe"
 
     };
-
+        //الوصف
     public String[] list_description={
 
 
@@ -49,6 +49,7 @@ public class SlideAdapter extends PagerAdapter {
             "Please write your data very carefully.. as others will help you based on that data"
 
     };
+    //لون كل slide
     public int[] list_color={
 
             Color.rgb(133,193,176),
